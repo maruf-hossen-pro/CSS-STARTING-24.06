@@ -1,0 +1,22 @@
+table,th,td{
+    /* border: 5px solid tomato; */
+    /* border-collapse: collapse; */
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px ;
+    margin: 20px;
+    background-color: aquamarine;
+    
+}
+table{
+    width: 100%;
+}
+th{
+    height: 50px;
+    background-color: rgb(125, 125, 220);
+
+}
+th:hover{
+    color: brown;
+    background-color: rgb(0, 255, 51);
+}

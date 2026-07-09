@@ -1,0 +1,39 @@
+a.btn-1{
+    font-size: 50px;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 30px;
+    background-color: red;
+    color: #fff;
+    border-radius: 30px;
+}
+a.btn-2{
+    font-size: 50px;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 30px;
+    background-color: red;
+    color: #fff;
+    border-radius: 30px;
+}
+a.btn-3{
+    font-size: 50px;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 30px;
+    background-color: red;
+    color: #fff;
+    border-radius: 30px;
+}
+a.btn-1:hover{
+    color: black;
+}
+a.btn-2:hover{
+    color: rgb(177, 248, 0);
+}
+a.btn-3:hover{
+    color: rgb(174, 215, 171);
+}
+a:visited{
+    color: #000;
+}

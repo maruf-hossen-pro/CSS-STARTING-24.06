@@ -1,0 +1,18 @@
+ul{
+    list-style-type: disc;
+    list-style-type: circle;
+    list-style-type: georgian;
+    list-style-type: lower-greek;
+    /* list-style-image: url(./isolated-tree-white-background/26130.jpg); */
+    background-color: cadetblue;
+    margin: 10px;
+    padding: 10px;
+    list-style-position: inside;
+
+}
+
+li{
+    border: 5px solid ;
+    padding: 10px;
+    text-align: center;
+}

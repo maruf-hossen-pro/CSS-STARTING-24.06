@@ -1,0 +1,30 @@
+/* Jokon Kono poro area jore jaiga niye nai tokon take block element bola hoi as like h1 tags bg  */
+
+h1{
+    background-color: tomato;
+}
+p{
+    background-color: yellowgreen;
+}
+
+/* Span,link etc  hoilo inline block element */
+span{
+    background-color: rgb(0, 255, 255);
+}
+h1{
+    display: inline-block;
+}
+span{
+    display: block;
+}
+p{
+     /* display: none;  for make any element hidden we use this  */
+} 
+
+a.btn{
+    background-color: rgb(4, 217, 255);
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 4px;
+}
