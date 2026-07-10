@@ -1,0 +1,120 @@
+.main {
+    background: tomato;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.child {
+    background: #B7FF2A;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+    z-index: 1;
+}
+
+.sec{
+    background: skyblue;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    z-index: 5;
+}
+.child2 {
+    background: #463d3d;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+.child3 {
+    background: #00d5ff;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -25px;
+    margin-top: -25px;
+    z-index: 2;
+}
+
+.gain{
+    background: rgb(67, 124, 9);
+    width: 800px;
+    height: 700px;
+    margin-top: 10px;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.first-child{
+    background: #00d5ff;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    z-index: 3;
+}
+.second-child{
+    background: #b94733;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 100px;
+    left: 100px;
+    margin: 10px;
+    position: absolute;
+    z-index: 2;
+
+}
+.third-child{
+    background: #872a77;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    top: 170px;
+    left: 170px;
+    z-index: 1;
+}
+
+
+.flag{
+    background: green;
+    width: 800px;
+    height: 300px;
+    margin-top: 20px;
+    position: relative;
+
+}
+.bangladesh{
+    background: red;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    margin-left: 100px;
+    margin-top: -25px;
+}

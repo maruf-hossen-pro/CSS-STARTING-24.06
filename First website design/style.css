@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: black;
+    color: #EDEDED;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 0.03em;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* -------Navbar------- */
+
+.navbar {
+    background: #141414;
+    padding: 20px 60px;
+    border-bottom: 2px solid #B8FF3D;
+    position: sticky;
+    top: 0;
+}
+
+.navbar .logo {
+    display: inline-block;
+    font-size: 28px;
+    color: #B8FF3D;
+
+}
+
+.navbar ul {
+    display: inline-block;
+    float: right;
+    list-style: none;
+    margin-top: 6px;
+
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-left: 32px;
+
+}
+
+.navbar ul li a {
+    color: #EDEDED;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+
+}
+
+.navbar ul li a:hover {
+    color: #B8FF3D;
+}
+
+/* .navbar ul li a:visited{ color:#570303; } */
+
+.hero {
+    background: #1A1A1A;
+    background-image: linear-gradient(135deg, #1A1A1A 0%, #262208 100%);
+    text-align: center;
+    position: relative;
+    /* padding: 110px 60px 130px; */
+    padding: 110px 60px 130px;
+}
+
+.hero .badge {
+    position: absolute;
+    top: 40px;
+    right: 60px;
+    background: #B8FF3D;
+    color: #141414;
+    padding: 8px 18px;
+    border-radius: 100px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 13px;
+
+}
+
+.hero h1 {
+    font-size: 72px;
+    line-height: 1.1;
+    color: #fff;
+}
+
+.hero h1 span {
+    color: #B8FF3D;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #b7b7b7;
+    max-width: 520px;
+    margin: 22px auto 34px;
+    line-height: 1.7;
+}
+
+.hero a.cta {
+
+    background: #B8FF3D;
+    padding: 15px 40px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #141414;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-size: 15px;
+}
+
+.about {
+    max-width: 800px;
+    text-align: center;
+    padding: 80px 60px;
+    margin: 0 auto;
+}
+
+.about h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    /* color: #b7b7b7; */
+}
+
+.about p {
+    color: #b7b7b7;
+    font-size: 16px;
+    line-height: 1.8;
+    padding: 0 40px;
+}
+
+.service {
+    background: #161616;
+    padding: 80px 60px;
+}
+
+.service h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+.service ul {
+    list-style: none;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.service ul li {
+    background: #1e1e1e;
+    margin-bottom: 14px;
+    padding: 22px 30px;
+    border-left: 4px solid #B8FF3D;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.service ul li span {
+    color: #8a8a8a;
+    font-weight: 400;
+    font-size: 14px;
+    display: block;
+    margin-top: 4px;
+}
+
+.membership {
+    padding: 80px 60px;
+}
+
+.membership h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+table {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+table th {
+    background: #B8FF3D;
+    color: #141414;
+    padding: 18px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+table td {
+    border-bottom: 1px solid #2a2a2a;
+    padding: 18px;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+table tr:nth-child(even) td {
+    background: #1A1A1A;
+}
+
+table tr:nth-child(odd) td {
+    background: #141414;
+}
+
+/* _________Footer_________ */
+
+footer {
+    background: #141414;
+    padding: 60px;
+    border-top: 1px solid #2a2a2a;
+}
+
+.footer-col {
+    display: inline-block;
+    width: 32%;
+    vertical-align: top;
+}
+
+footer h3 {
+    color: #B8FF3D;
+    font-size: 20px;
+    margin-bottom: 16px;
+
+}
+
+footer ul {
+    list-style: none;
+
+}
+
+footer ul li {
+    margin-bottom: 10px;
+
+}
+
+footer ul li a {
+    color: #b7b7b7;
+}
+
+footer ul li a:hover {
+    color: #B8FF3D;
+}
+
+footer .bottom {
+    text-align: center;
+    margin-top: 40px;
+    color: #5a5a5a;
+    font-size: 13px;
+}
