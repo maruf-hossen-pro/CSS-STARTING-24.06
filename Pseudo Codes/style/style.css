@@ -1,0 +1,24 @@
+h1{
+    color: yellowgreen;
+    /* background-color: aqua; */
+}
+h1:hover{
+    color: rgb(255, 252, 252);
+    background-color: blue;
+}
+
+.input-text{
+    margin: 30px;
+
+}
+input{
+    padding: 20px;      
+}
+input:focus{
+    color: rgb(91, 191, 44);
+    background-color: rgb(108, 124, 170);
+    font-size: 15px;
+    font-weight: bold;
+    outline: 0;
+    border: 3px solid red;
+}
