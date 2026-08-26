@@ -1,22 +1,45 @@
-.container,.inner{
+.container,
+.inner {
     width: 300px;
     height: 200px;
-    
+
 
 }
-.container{
+
+.container {
     border: 2px solid red;
     background-color: rgb(110, 69, 148);
 }
-.inner{
+
+.inner {
     border: 2px solid;
-    background-color:tomato;
+    background-color: rgb(9, 9, 9);
     /* transform: scale(0.75);
     transform: rotate(-100deg); */
     /* transform: scale(0.5) rotate(45deg) translateX(300px); */
     /* transform: rotate(45deg); */
     /* transform: rotate(45deg) translateX(100px); */
 }
-.inner:hover{
+
+.inner:hover {
     transform: rotate(45deg) scale(0.5);
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 3px solid;
+    background-color: tomato;
+    /* Transition Rules */
+    /* Property Name | Duration | Easing Function | Delay */
+    /* transition: width 3s linear 2s,  background-color 10s ease-in; */
+    /* linear will kove the transform in a specific speed */
+    /* 2s is delay */
+    transition: transform 5s ease-in-out , translate 2s;
+}
+
+.box:hover {
+    transform: rotate(360deg) scale(1.5) translateX(150px);
+    /* width: 400px;
+    background-color: yellowgreen; */
 }
