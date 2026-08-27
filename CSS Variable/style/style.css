@@ -1,0 +1,36 @@
+:root{
+    --primary-color:rgb(19, 13, 13);
+    --secondary-color:red;
+    --font-size: 50px;
+}
+
+h1{
+    color: steelblue;
+    color: var(--primary-color);
+}
+h4{
+    background-color: steelblue;
+    font-size: var(--font-size);
+}
+.box{
+    border: 5px solid steelblue;
+    color: var(--primary-color);
+    width: calc(100% - 150px);
+}
+.box p{
+    color: steelblue;
+    color: var(--primary-color);
+}
+.sidebar{
+    background-color: aqua;
+}
+.content{
+    background-color: violet;
+}
+.container{
+    display: grid;
+    gap: 20px;
+    grid-template-rows: 500px;
+    grid-template-columns: 200px calc(100% - 200px - 20px) ;
+    
+}
