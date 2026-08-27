@@ -1,0 +1,24 @@
+.filed{
+    border: 2px solid red;
+    
+}
+.bat{
+    transition: transform 0.3s ease-in-out;
+}
+.filed:hover .bat{
+    transform: rotate(-60deg);
+    transform-origin: top right;
+    
+}
+.ball{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+    position: relative;
+    left: 498px;
+    transition: transform 1s ease-out 0.4s;
+}
+.filed:hover .ball{
+    transform: translate(400px,-500px);
+}
