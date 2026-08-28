@@ -34,11 +34,22 @@ h4{
     grid-template-columns: 200px calc(100% - 200px - 20px) ;
     
 }
+.contain{
+    display: grid;
+grid-template-columns: repeat(3, 1fr);
+}
 
 .div{
-    background-color: tomato;
-    width: 33.33%;
-    height: 300px;
+    background-color: tomato; 
+    height: auto;
     margin: 10px;
-    display: grid;
+    padding: 20px;
+    text-align: center;
+}
+.div img{
+    width: 100%;
+    max-height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+
 }
