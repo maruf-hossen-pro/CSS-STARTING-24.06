@@ -37,6 +37,7 @@ h4{
 .contain{
     display: grid;
 grid-template-columns: repeat(3, 1fr);
+color: #fff;
 }
 
 .div{
@@ -51,6 +52,7 @@ grid-template-columns: repeat(3, 1fr);
     max-height: 100px;
     object-fit: cover;
     border-radius: 10px;
+    
 
 }
 .btn{
@@ -64,5 +66,8 @@ grid-template-columns: repeat(3, 1fr);
     transform: scale(1.1);
 }
 .contain .div .btn:hover{
+    transform: scale(1.1);
+}
+.contain .div:hover{
     transform: scale(1.1);
 }
