@@ -53,3 +53,16 @@ grid-template-columns: repeat(3, 1fr);
     border-radius: 10px;
 
 }
+.btn{
+    padding: 15px;
+    border: none;
+    background-color: orange;
+    color: #fff;
+    border-radius: 10px;
+}
+.contain .div img:hover{
+    transform: scale(1.1);
+}
+.contain .div .btn:hover{
+    transform: scale(1.1);
+}
